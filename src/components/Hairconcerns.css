@@ -1,0 +1,56 @@
+.rroow {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* margin-bottom: 3%; */
+    margin: auto;
+    /* width: 80%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+    /* margin-left: 35px; */
+}
+
+
+.z1 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-left: 30px;
+    
+}
+
+.z2 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-right: 30px;
+    margin-left: 35px;
+}
+/* 
+.z3 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-left: 20px;
+} */
+
+.z4 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-right: 30px;
+}
+
+.card_-col {
+    position: relative;
+    margin-left: 20px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    /* border-style: groove; */
+}
+
+
+.card_-col :hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

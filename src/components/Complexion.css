@@ -1,0 +1,79 @@
+.rooww {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* margin-bottom: 3%; */
+    margin: auto;
+    /* width: 80%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.j1 {
+    width: 300px;
+    padding-top: 4rem;
+    /* margin-right: 10px; */
+    margin-left: 30px;
+    
+}
+
+.j2 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-left: 30px;
+}
+/* 
+.j3 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-left: 20px;
+} */
+
+.j4 {
+    width: 300px;
+    padding-top: 4rem;
+    margin-left: 30px;
+}
+
+.card-_col {
+    position: relative;
+    margin-left: 20px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    /* border-style: groove; */
+}
+
+
+.card-_col :hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+.btttn {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0e6e78;
+    border: none;
+    border-radius: 4px;
+    /* margin-left: 550px; */
+    /* margin-right: 550px; */
+    margin-top: 400px;
+    height: 50px;
+    padding-bottom: 3rem;
+  }
+
+.bttn:hover {
+    transform: scale(1.02);
+  }
+
+

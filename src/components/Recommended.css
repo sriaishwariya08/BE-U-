@@ -1,0 +1,89 @@
+/* {
+  background-image: url(https://th.bing.com/th/id/R.0689a95a5c2742f403ceec8db9cddd1b?rik=aUyjUo2NkfB4fQ&riu=http%3a%2f%2fshmcnglobal.com%2fassets%2fmedia%2ftodays-makeup-products.jpg&ehk=q5FgT7SKkGzCs%2fC1wq51CrXM9axuR2QRnBvyMvqbeHI%3d&risl=&pid=ImgRaw&r=0);
+} */
+.mainnnn {
+  background-color: black;
+}
+.text-center {
+  padding-top: 2rem;
+  background-color: black;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-bottom: 3%; */
+    margin: auto;
+    /* width: 80%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+    padding-top: 2rem;
+    background-color: black;
+  }
+
+  .card-coll {
+    position: relative;
+    margin-left: 20px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    /* border-style: groove; */
+  }
+  
+  /* .card-col:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+  } */
+  
+  .card-coll img {
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: black;
+  }
+  
+  .card-coll img:hover {
+    opacity: 0.8;
+    transition: all;
+  }
+  
+  .card-coll p {
+    font-size: 15px;
+    padding: 2px;
+    color: #0e6e78;
+  }
+  
+  .card-coll h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+  
+  }
+  
+  .card-coll a {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #0e6e78;
+    border: none;
+    border-radius: 4px;
+    /* box-shadow: 0 9px #999; */
+    /* align-content: center; */
+    /* position: relative;
+    bottom: 0%; */
+  }
+  
+  .card-coll a:hover {
+    transform: scale(1.02);
+  }
+
+  

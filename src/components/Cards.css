@@ -1,0 +1,52 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cardss {
+    width: 250px;
+    padding: 20px;
+}
+
+.cardss:hover {
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.image_box img {
+    width: 250px;
+    height: 200px;
+    margin-left: 45px;
+    border-radius: 15px;
+}
+
+.details p:nth-child(1) {
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.details p:nth-child(2) {
+    color: grey;
+    font-size: 0.8rem;
+    margin-left: 45px;
+}
+
+.details p:nth-child(3) {
+    font-weight: bold;
+    color: grey;
+    margin-left: 45px;
+}
+
+.details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: cadetblue;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
